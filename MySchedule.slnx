@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Backend/">
+    <Project Path="src/Backend/MySchedule.Application/MySchedule.Application.csproj" />
+    <Project Path="src/Backend/MySchedule.Domain/MySchedule.Domain.csproj" />
+    <Project Path="src/Backend/MySchedule.Infrastructure/MySchedule.Infrastructure.csproj" />
+    <Project Path="src/Backend/MySchedule.Api/MySchedule.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/MySchedule.Communication/MySchedule.Communication.csproj" />
+    <Project Path="src/Shared/MySchedule.Exception/MySchedule.Exception.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
