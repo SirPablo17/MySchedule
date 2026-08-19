@@ -12,4 +12,8 @@
       <ProjectReference Include="..\MySchedule.Domain\MySchedule.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="12.1.1" />
+    </ItemGroup>
+
 </Project>

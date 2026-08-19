@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MySchedule.Application.UseCases.User.Register;
 using MySchedule.Communication.Requests;
 
 namespace MySchedule.Api.Controllers
@@ -10,6 +11,10 @@ namespace MySchedule.Api.Controllers
         [HttpPost]
         public IActionResult Register([FromBody] RequestRegisterUserAccountJson userAccountJson)
         {
+            var useCase = new RegisterUserAccountUseCase();
+            
+            useCase.Execute(userAccountJson);
+
             return Created();
         }
     }
