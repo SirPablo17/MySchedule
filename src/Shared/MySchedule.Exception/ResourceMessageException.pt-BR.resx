@@ -27,4 +27,7 @@
     <data name="VALIDATION_PASSWORD_REQUIRED" xml:space="preserve">
         <value>Senha é obrigatória.</value>
     </data>
+    <data name="VALIDATION_EMAIL_INVALID" xml:space="preserve">
+        <value>Este email não parece válido.</value>
+    </data>
 </root>

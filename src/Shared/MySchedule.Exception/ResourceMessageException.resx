@@ -27,4 +27,7 @@
     <data name="VALIDATION_PASSWORD_REQUIRED" xml:space="preserve">
         <value>Password required.</value>
     </data>
+    <data name="VALIDATION_EMAIL_INVALID" xml:space="preserve">
+        <value>That email doesn't look right.</value>
+    </data>
 </root>

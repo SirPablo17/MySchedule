@@ -62,5 +62,11 @@ namespace MySchedule.Exception {
                 return ResourceManager.GetString("VALIDATION_PASSWORD_REQUIRED", resourceCulture);
             }
         }
+        
+        public static string VALIDATION_EMAIL_INVALID {
+            get {
+                return ResourceManager.GetString("VALIDATION_EMAIL_INVALID", resourceCulture);
+            }
+        }
     }
 }
